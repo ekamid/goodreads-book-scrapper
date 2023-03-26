@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "npx ts-node src/index.ts",
     "dev": "npx nodemon",
     "build": "rm -rf ./build && tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Scrap Goodreads Book information using Puppeteer",
   "devDependencies": {
     "@types/node": "^18.15.10",
     "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "puppeteer": "^19.8.0"
   }
 }
